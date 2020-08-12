@@ -462,6 +462,7 @@ li {
     display: block;
     grid-column: 2 / -1;
     grid-row: 1 / 2;
+    align-self:center;
   }
 
   .item-1 {
