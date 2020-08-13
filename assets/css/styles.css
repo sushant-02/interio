@@ -462,7 +462,8 @@ li {
     display: block;
     grid-column: 2 / -1;
     grid-row: 1 / 2;
-    align-self:center;
+    align-self: center;
+    text-align: right !important;
   }
 
   .item-1 {
@@ -508,18 +509,25 @@ li {
     top: 0;
     margin-top: 0;
     width: 50%;
+    background-color: rgba(255, 255, 255, 0.74);
+    color: #000;
+  }
+
+  .person-name {
+    color: #000;
   }
 
   .person p {
     line-height: 27px;
     font-weight: 600;
     font-size: 1.2rem;
+    color: #000;
   }
 }
 
 @media (min-width: 1000px) {
   #glimpse-section {
-    padding: 2rem 12rem 5rem;
+    padding: 2rem 15rem 5rem;
   }
 }
 
